@@ -1,0 +1,136 @@
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  left: 0px;
+  top: 0px;
+}
+
+/*ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+}*/
+/*ul li{
+    list-style: none;
+    color:white;
+    padding: 20px;
+}*/
+.header {
+  padding: 20px;
+  height: 100vh;
+  background: url("Images/ninja.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.header h1 {
+  margin: 2px;
+  text-align: center;
+  color: white;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+/*body{
+    background-image: url("Images/coronavirus-1.jpeg");
+    background-repeat: no-repeat;
+}*/
+.achievements {
+  display: block;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  word-wrap: normal;
+  position: fixed;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+.container li {
+  display: inline;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 10px;
+  list-style: none;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: scroll;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+}
+
+.container li a:hover {
+  border-bottom: 3px solid #ffffff;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 10%;
+  font-family: cursive;
+}
+
+.content h1 {
+  text-align: center;
+  line-height: 7em;
+}
+
+.content p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.flex1 {
+  background-color: turquoise;
+  height: 230px;
+}
+
+.flex1 .biography p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  max-width: 60%;
+  padding: 0px 10% 0px 19%;
+}
+
+.flex1 .biography h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.flex2 .achievements ul li {
+  line-height: 2em;
+}
+
+.flex2 .achievements h3 {
+  border-bottom: 2px solid black;
+}
+/*# sourceMappingURL=style.css.map */
